@@ -1,3 +1,6 @@
+<?php
+    include 'settings.php';
+?>
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
@@ -20,10 +23,10 @@
                     </a>
                 </li>
 
-                <li class="active"><a href="/">Accueil</a></li>
-                <li class="active"><a href="/">Formation Universitaire</a></li>
-                <li class="active"><a href="/">Master Mdbs Nice</a></li>
-                <li class="active"><a href="/">Formation Entreprise</a></li>
+                <li class="active"><a href="<?php echo $base_url; ?>">Accueil</a></li>
+                <li class="active"><a href="<?php echo $base_url; ?>formation-universitaire.php">Formation Universitaire</a></li>
+                <li class="active"><a href="<?php echo $base_url; ?>master-mdbs-nice.php">Master Mdbs Nice</a></li>
+                <li class="active"><a href="<?php echo $base_url; ?>formation-entreprise.php">Formation Entreprise</a></li>
                 <li class="active">
                     <a href="/">
                         <div class="hamburger">
