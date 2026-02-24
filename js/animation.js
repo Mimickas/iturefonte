@@ -11,7 +11,7 @@ gsap.to(containerHero, {
   opacity: 0.96,
   scrollTrigger: {
     trigger: containerHero,
-    start: "center center", // quand le top de l'élément atteint le centre de l'écran
+    start: "center top", // quand le top de l'élément atteint le centre de l'écran
     end: "bottom 20%",   // quand le bottom de l'élément atteint le top de l'écran
     scrub: true,         // animation liée au scroll
   }
