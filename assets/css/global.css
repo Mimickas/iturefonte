@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0; 
+
+
+}
+body{
+    background-color: var(--bg-color);
+}
+a{
+    text-decoration: none;
+
+    color: inherit;
+}
+
+:root {
+    
+    --bleu: #283a97; 
+    --vert: #B2D235; 
+    --bleu-gris: #d0dce7; 
+    --violet: #5363e4; 
+    --rose: #e64a91;
+    --rouge: #fd3022; 
+
+    --primary-text: #f0f0f0;
+    --secondary-text: #e7e7e7;
+    --bg-color: #0d0d0d; 
+    --bg-semi-color: #202020; 
+    --card-bg: #273549; 
+    --border-color: #334155; 
+    --accent-color: #60A5FA; 
+
+    
+}
+
+[data-theme="light"] {
+
+    --bleu: #283a97; 
+    --vert: #B2D235; 
+    --bleu-gris: #d0dce7; 
+    --violet: #5363e4;
+    --rose: #e64a91; 
+    --rouge: #fd3022; 
+
+    
+    --primary-text: #111111; 
+    --secondary-text: #252525; 
+    --bg-color: #F3F4F6;
+    --card-bg: #FFFFFF;
+    --border-color: #D1D5DB; 
+    --accent-color: #2563EB; 
+}
+
+h1{
+    font-family: 'fractul-black', sans-serif;
+    color: var(--primary-text);
+    font-size: 5rem;
+}
+
+.paragraph{
+    color: var(--secondary-text);
+    font-family: 'aktiv-regular', sans-serif;
+    font-size: 1.25rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.accent-titre{
+    color: var(--vert);
+}

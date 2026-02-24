@@ -1,0 +1,49 @@
+@font-face {
+    font-family: fractul-black;
+    src: url(../fonts/Titre/Fractul-Black.otf);
+}
+@font-face {
+    font-family: fractul-boldItalic;
+    src: url(../fonts/Titre/Fractul-BoldItalic.otf);
+}
+@font-face {
+    font-family: fractul-bold;
+    src: url(../fonts/Titre/FractulAlt-Bold.otf);
+}
+@font-face {
+    font-family: fractul-light;
+    src: url(../fonts/Titre/FractulAlt-Light.otf);
+}
+@font-face {
+    font-family: fractul-italic;
+    src: url(../fonts/Titre/Fractul-Italic.otf);
+}
+@font-face {
+    font-family: fractul-medium;
+    src: url(../fonts/Titre/Fractul-Medium.otf);
+}
+
+
+
+
+@font-face {
+    font-family: aktiv-black;
+    src: url(../fonts/Contenu/AktivGrotesk-Black.ttf);
+}
+
+@font-face {
+    font-family: aktiv-boldItalic;
+    src: url(../fonts/Contenu/AktivGrotesk-BlackItalic.ttf);
+}
+@font-face {
+    font-family: aktiv-italic;
+    src: url(../fonts/Contenu/AktivGrotesk-Italic.ttf);
+}
+@font-face {
+    font-family: aktiv-regular;
+    src: url(../fonts/Contenu/AktivGrotesk-Regular.ttf);
+}
+@font-face {
+    font-family: aktiv-light;
+    src: url(../fonts/Contenu/AktivGrotesk-Light.ttf);
+}

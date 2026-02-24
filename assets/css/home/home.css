@@ -1,0 +1,17 @@
+.accueil-home{
+
+    height: 91vh;
+    margin-left: 0.5%;
+    width: 99%;
+    background: var(--bg-semi-color);
+    border-radius: 25px;
+    z-index: 1000;
+}
+
+.container-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
