@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
             <ul>
                 <li class="logo">
                     <a href="">
-                        <img src="assets/logo/ITU_logo_MAJ_negatif_sans_fond.png" id="logo-img" alt="">
+                        <img src="assets/logo/ITU_logo_MAJ_positif.png" id="logo-img" alt="">
                     </a>
                 </li>
 
@@ -41,15 +41,8 @@
 
     <section class="accueil-home">
 
-        <div class="container-home">
-            
-
-            <div>
-
-                <div>
-                    
-                </div>
-
+        <div id="container-hero" class="container-hero">
+        
                 <h1 style="text-align: center;">
                     Le numerique au service de <br> 
                     <span class="accent-titre">
@@ -58,11 +51,15 @@
                 </h1>
                 <p class="paragraph text-center">Une formation d'excellence pour devenir un expert du numérique.</p>
                 
-            </div>
-
         </div>
 
     </section>
 
+    <div class="test-full-width">dasdsa</div>
+    <div class="test-full-width">dasdsa</div>
+
+    <script type="module" src="js/lib.js"></script>
+    <script type="module" src="js/animation.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

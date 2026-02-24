@@ -1,17 +1,31 @@
 .accueil-home{
 
-    height: 91vh;
+    height: 100vh;
     margin-left: 0.5%;
     width: 99%;
-    background: var(--bg-semi-color);
-    border-radius: 25px;
+    /* background: var(--bg-semi-color); */
+    overflow: hidden;
     z-index: 1000;
 }
 
-.container-home {
+.container-hero {
+    color: var(--hero-color);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
     gap: 20px;
+    background: url('../../img/bg-hero-light.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.container-hero h1 {
+    color: var(--hero-color);
+}
+
+.container-hero p {
+    color: var(--hero-color);
 }

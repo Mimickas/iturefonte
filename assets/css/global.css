@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0; 
-
-
+}
+html {
+  scroll-behavior: smooth;
 }
 body{
     background-color: var(--bg-color);
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -22,6 +24,8 @@ a{
     --rose: #e64a91;
     --rouge: #fd3022; 
 
+    /* --hero-color: #ffffff;  */
+
     --primary-text: #f0f0f0;
     --secondary-text: #e7e7e7;
     --bg-color: #0d0d0d; 
@@ -30,7 +34,6 @@ a{
     --border-color: #334155; 
     --accent-color: #60A5FA; 
 
-    
 }
 
 [data-theme="light"] {
@@ -41,11 +44,12 @@ a{
     --violet: #5363e4;
     --rose: #e64a91; 
     --rouge: #fd3022; 
-
     
+    --hero-color: #ffffff; 
+
     --primary-text: #111111; 
     --secondary-text: #252525; 
-    --bg-color: #F3F4F6;
+    --bg-color: #ffffff;
     --card-bg: #FFFFFF;
     --border-color: #D1D5DB; 
     --accent-color: #2563EB; 
@@ -69,4 +73,9 @@ h1{
 
 .accent-titre{
     color: var(--vert);
+}
+
+.test-full-width {
+    width: 100vw;
+    height: 100vh;
 }
